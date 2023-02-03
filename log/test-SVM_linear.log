@@ -1,0 +1,34 @@
+(9467, 3840) (9467,)
+Use SVM(linear) to fit data!
+Finsh 1!
+{'auc': 0.812, 'mcc': 0.628, 'acc': 0.822, 'specificity': 0.76, 'sensitivity': 0.863, 'precision': 0.841}
+Use SVM(linear) to fit data!
+Finsh 2!
+{'auc': 0.803, 'mcc': 0.602, 'acc': 0.805, 'specificity': 0.794, 'sensitivity': 0.812, 'precision': 0.847}
+Use SVM(linear) to fit data!
+Finsh 3!
+{'auc': 0.819, 'mcc': 0.63, 'acc': 0.82, 'specificity': 0.81, 'sensitivity': 0.827, 'precision': 0.87}
+Use SVM(linear) to fit data!
+Finsh 4!
+{'auc': 0.813, 'mcc': 0.621, 'acc': 0.82, 'specificity': 0.783, 'sensitivity': 0.843, 'precision': 0.866}
+Use SVM(linear) to fit data!
+Finsh 5!
+{'auc': 0.833, 'mcc': 0.667, 'acc': 0.838, 'specificity': 0.803, 'sensitivity': 0.863, 'precision': 0.862}
+Use SVM(linear) to fit data!
+Finsh 6!
+{'auc': 0.821, 'mcc': 0.638, 'acc': 0.825, 'specificity': 0.804, 'sensitivity': 0.838, 'precision': 0.866}
+Use SVM(linear) to fit data!
+Finsh 7!
+{'auc': 0.845, 'mcc': 0.687, 'acc': 0.848, 'specificity': 0.83, 'sensitivity': 0.86, 'precision': 0.879}
+Use SVM(linear) to fit data!
+Finsh 8!
+{'auc': 0.852, 'mcc': 0.705, 'acc': 0.859, 'specificity': 0.817, 'sensitivity': 0.887, 'precision': 0.882}
+Use SVM(linear) to fit data!
+Finsh 9!
+{'auc': 0.841, 'mcc': 0.679, 'acc': 0.844, 'specificity': 0.824, 'sensitivity': 0.858, 'precision': 0.873}
+Use SVM(linear) to fit data!
+Finsh 10!
+{'auc': 0.82, 'mcc': 0.637, 'acc': 0.826, 'specificity': 0.796, 'sensitivity': 0.845, 'precision': 0.865}
+10
+finish all!
+{'auc': 0.8259000000000001, 'mcc': 0.6494, 'acc': 0.8307, 'specificity': 0.8020999999999999, 'sensitivity': 0.8496, 'precision': 0.8650999999999998}

@@ -1,0 +1,54 @@
+24989
+22489 2500
+22489 2500
+Use SVM(linear) to fit data!
+Finsh 1!
+{'auc': 0.878, 'mcc': 0.752, 'acc': 0.878, 'specificity': 0.876, 'sensitivity': 0.881, 'precision': 0.834}
+22489 2500
+22493 2496
+Use SVM(linear) to fit data!
+Finsh 2!
+{'auc': 0.906, 'mcc': 0.815, 'acc': 0.915, 'specificity': 0.873, 'sensitivity': 0.938, 'precision': 0.929}
+22489 2500
+22504 2485
+Use SVM(linear) to fit data!
+Finsh 3!
+{'auc': 0.907, 'mcc': 0.818, 'acc': 0.913, 'specificity': 0.878, 'sensitivity': 0.936, 'precision': 0.923}
+22489 2500
+22489 2500
+Use SVM(linear) to fit data!
+Finsh 4!
+{'auc': 0.908, 'mcc': 0.811, 'acc': 0.908, 'specificity': 0.909, 'sensitivity': 0.907, 'precision': 0.871}
+22489 2500
+22491 2498
+Use SVM(linear) to fit data!
+Finsh 5!
+{'auc': 0.923, 'mcc': 0.84, 'acc': 0.931, 'specificity': 0.944, 'sensitivity': 0.901, 'precision': 0.878}
+22489 2500
+22494 2495
+Use SVM(linear) to fit data!
+Finsh 6!
+{'auc': 0.852, 'mcc': 0.707, 'acc': 0.853, 'specificity': 0.808, 'sensitivity': 0.896, 'precision': 0.826}
+22489 2500
+22490 2499
+Use SVM(linear) to fit data!
+Finsh 7!
+{'auc': 0.824, 'mcc': 0.66, 'acc': 0.829, 'specificity': 0.747, 'sensitivity': 0.901, 'precision': 0.803}
+22489 2500
+22490 2499
+Use SVM(linear) to fit data!
+Finsh 8!
+{'auc': 0.825, 'mcc': 0.654, 'acc': 0.838, 'specificity': 0.768, 'sensitivity': 0.881, 'precision': 0.86}
+22489 2500
+22493 2496
+Use SVM(linear) to fit data!
+Finsh 9!
+{'auc': 0.845, 'mcc': 0.691, 'acc': 0.848, 'specificity': 0.822, 'sensitivity': 0.868, 'precision': 0.861}
+22500 2489
+22500 2489
+Use SVM(linear) to fit data!
+Finsh 10!
+{'auc': 0.891, 'mcc': 0.77, 'acc': 0.887, 'specificity': 0.874, 'sensitivity': 0.907, 'precision': 0.824}
+10
+finish all!
+{'auc': 0.8759, 'mcc': 0.7517999999999999, 'acc': 0.8799999999999999, 'specificity': 0.8499000000000001, 'sensitivity': 0.9016, 'precision': 0.8609}

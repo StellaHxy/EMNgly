@@ -1,0 +1,54 @@
+24989
+22489 2500
+22489 2500
+Use Decision Tree to fit data!
+Finsh 1!
+{'auc': 0.83, 'mcc': 0.65, 'acc': 0.822, 'specificity': 0.786, 'sensitivity': 0.874, 'precision': 0.742}
+22489 2500
+22493 2496
+Use Decision Tree to fit data!
+Finsh 2!
+{'auc': 0.858, 'mcc': 0.718, 'acc': 0.87, 'specificity': 0.812, 'sensitivity': 0.903, 'precision': 0.894}
+22489 2500
+22504 2485
+Use Decision Tree to fit data!
+Finsh 3!
+{'auc': 0.897, 'mcc': 0.791, 'acc': 0.9, 'specificity': 0.886, 'sensitivity': 0.908, 'precision': 0.926}
+22489 2500
+22489 2500
+Use Decision Tree to fit data!
+Finsh 4!
+{'auc': 0.857, 'mcc': 0.705, 'acc': 0.854, 'specificity': 0.842, 'sensitivity': 0.872, 'precision': 0.789}
+22489 2500
+22491 2498
+Use Decision Tree to fit data!
+Finsh 5!
+{'auc': 0.889, 'mcc': 0.758, 'acc': 0.893, 'specificity': 0.9, 'sensitivity': 0.877, 'precision': 0.797}
+22489 2500
+22494 2495
+Use Decision Tree to fit data!
+Finsh 6!
+{'auc': 0.791, 'mcc': 0.587, 'acc': 0.791, 'specificity': 0.721, 'sensitivity': 0.86, 'precision': 0.758}
+22489 2500
+22490 2499
+Use Decision Tree to fit data!
+Finsh 7!
+{'auc': 0.781, 'mcc': 0.581, 'acc': 0.788, 'specificity': 0.668, 'sensitivity': 0.894, 'precision': 0.754}
+22489 2500
+22490 2499
+Use Decision Tree to fit data!
+Finsh 8!
+{'auc': 0.777, 'mcc': 0.563, 'acc': 0.796, 'specificity': 0.696, 'sensitivity': 0.858, 'precision': 0.821}
+22489 2500
+22493 2496
+Use Decision Tree to fit data!
+Finsh 9!
+{'auc': 0.795, 'mcc': 0.595, 'acc': 0.801, 'specificity': 0.738, 'sensitivity': 0.851, 'precision': 0.805}
+22500 2489
+22500 2489
+Use Decision Tree to fit data!
+Finsh 10!
+{'auc': 0.845, 'mcc': 0.675, 'acc': 0.835, 'specificity': 0.8, 'sensitivity': 0.89, 'precision': 0.743}
+10
+finish all!
+{'auc': 0.8320000000000001, 'mcc': 0.6622999999999999, 'acc': 0.8350000000000002, 'specificity': 0.7848999999999999, 'sensitivity': 0.8787, 'precision': 0.8029}

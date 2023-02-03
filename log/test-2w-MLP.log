@@ -1,0 +1,54 @@
+24989
+22489 2500
+22489 2500
+(22489, 3840)
+Finsh 1!
+{'auc': 0.904, 'mcc': 0.798, 'acc': 0.899, 'specificity': 0.875, 'sensitivity': 0.932, 'precision': 0.841}
+22489 2500
+22493 2496
+(22493, 3840)
+Finsh 2!
+{'auc': 0.923, 'mcc': 0.855, 'acc': 0.933, 'specificity': 0.886, 'sensitivity': 0.96, 'precision': 0.937}
+22489 2500
+22504 2485
+(22504, 3840)
+Finsh 3!
+{'auc': 0.944, 'mcc': 0.885, 'acc': 0.945, 'specificity': 0.939, 'sensitivity': 0.949, 'precision': 0.961}
+22489 2500
+22489 2500
+(22489, 3840)
+Finsh 4!
+{'auc': 0.92, 'mcc': 0.842, 'acc': 0.924, 'specificity': 0.941, 'sensitivity': 0.899, 'precision': 0.912}
+22489 2500
+22491 2498
+(22491, 3840)
+Finsh 5!
+{'auc': 0.948, 'mcc': 0.894, 'acc': 0.955, 'specificity': 0.966, 'sensitivity': 0.929, 'precision': 0.925}
+22489 2500
+22494 2495
+(22494, 3840)
+Finsh 6!
+{'auc': 0.876, 'mcc': 0.752, 'acc': 0.876, 'specificity': 0.879, 'sensitivity': 0.872, 'precision': 0.881}
+22489 2500
+22490 2499
+(22490, 3840)
+Finsh 7!
+{'auc': 0.842, 'mcc': 0.701, 'acc': 0.848, 'specificity': 0.752, 'sensitivity': 0.932, 'precision': 0.811}
+22489 2500
+22490 2499
+(22490, 3840)
+Finsh 8!
+{'auc': 0.848, 'mcc': 0.689, 'acc': 0.851, 'specificity': 0.835, 'sensitivity': 0.861, 'precision': 0.894}
+22489 2500
+22493 2496
+(22493, 3840)
+Finsh 9!
+{'auc': 0.875, 'mcc': 0.745, 'acc': 0.873, 'specificity': 0.892, 'sensitivity': 0.858, 'precision': 0.91}
+22500 2489
+22500 2489
+(22500, 3840)
+Finsh 10!
+{'auc': 0.905, 'mcc': 0.798, 'acc': 0.9, 'specificity': 0.878, 'sensitivity': 0.933, 'precision': 0.833}
+10
+finish all!
+{'auc': 0.8984999999999997, 'mcc': 0.7958999999999999, 'acc': 0.9004, 'specificity': 0.8843, 'sensitivity': 0.9125, 'precision': 0.8905}

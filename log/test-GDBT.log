@@ -1,0 +1,34 @@
+(9467, 3840) (9467,)
+Use GDBT to fit data!
+Finsh 1!
+{'auc': 0.866, 'mcc': 0.741, 'acc': 0.875, 'specificity': 0.812, 'sensitivity': 0.919, 'precision': 0.876}
+Use GDBT to fit data!
+Finsh 2!
+{'auc': 0.882, 'mcc': 0.776, 'acc': 0.892, 'specificity': 0.827, 'sensitivity': 0.937, 'precision': 0.887}
+Use GDBT to fit data!
+Finsh 3!
+{'auc': 0.85, 'mcc': 0.716, 'acc': 0.865, 'specificity': 0.776, 'sensitivity': 0.924, 'precision': 0.861}
+Use GDBT to fit data!
+Finsh 4!
+{'auc': 0.86, 'mcc': 0.727, 'acc': 0.87, 'specificity': 0.813, 'sensitivity': 0.907, 'precision': 0.881}
+Use GDBT to fit data!
+Finsh 5!
+{'auc': 0.857, 'mcc': 0.718, 'acc': 0.865, 'specificity': 0.813, 'sensitivity': 0.9, 'precision': 0.875}
+Use GDBT to fit data!
+Finsh 6!
+{'auc': 0.855, 'mcc': 0.719, 'acc': 0.864, 'specificity': 0.796, 'sensitivity': 0.913, 'precision': 0.861}
+Use GDBT to fit data!
+Finsh 7!
+{'auc': 0.855, 'mcc': 0.716, 'acc': 0.863, 'specificity': 0.807, 'sensitivity': 0.903, 'precision': 0.868}
+Use GDBT to fit data!
+Finsh 8!
+{'auc': 0.839, 'mcc': 0.686, 'acc': 0.852, 'specificity': 0.778, 'sensitivity': 0.899, 'precision': 0.864}
+Use GDBT to fit data!
+Finsh 9!
+{'auc': 0.857, 'mcc': 0.731, 'acc': 0.874, 'specificity': 0.782, 'sensitivity': 0.931, 'precision': 0.873}
+Use GDBT to fit data!
+Finsh 10!
+{'auc': 0.857, 'mcc': 0.723, 'acc': 0.871, 'specificity': 0.799, 'sensitivity': 0.915, 'precision': 0.882}
+10
+finish all!
+{'auc': 0.8578000000000001, 'mcc': 0.7253, 'acc': 0.8690999999999999, 'specificity': 0.8003, 'sensitivity': 0.9148, 'precision': 0.8728}

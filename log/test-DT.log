@@ -1,0 +1,34 @@
+(9467, 3840) (9467,)
+Use Decision Tree to fit data!
+Finsh 1!
+{'auc': 0.779, 'mcc': 0.562, 'acc': 0.791, 'specificity': 0.722, 'sensitivity': 0.837, 'precision': 0.819}
+Use Decision Tree to fit data!
+Finsh 2!
+{'auc': 0.807, 'mcc': 0.616, 'acc': 0.814, 'specificity': 0.767, 'sensitivity': 0.847, 'precision': 0.838}
+Use Decision Tree to fit data!
+Finsh 3!
+{'auc': 0.809, 'mcc': 0.621, 'acc': 0.818, 'specificity': 0.762, 'sensitivity': 0.857, 'precision': 0.842}
+Use Decision Tree to fit data!
+Finsh 4!
+{'auc': 0.794, 'mcc': 0.581, 'acc': 0.801, 'specificity': 0.765, 'sensitivity': 0.823, 'precision': 0.855}
+Use Decision Tree to fit data!
+Finsh 5!
+{'auc': 0.812, 'mcc': 0.617, 'acc': 0.816, 'specificity': 0.793, 'sensitivity': 0.831, 'precision': 0.866}
+Use Decision Tree to fit data!
+Finsh 6!
+{'auc': 0.784, 'mcc': 0.575, 'acc': 0.795, 'specificity': 0.718, 'sensitivity': 0.85, 'precision': 0.809}
+Use Decision Tree to fit data!
+Finsh 7!
+{'auc': 0.791, 'mcc': 0.574, 'acc': 0.797, 'specificity': 0.767, 'sensitivity': 0.815, 'precision': 0.855}
+Use Decision Tree to fit data!
+Finsh 8!
+{'auc': 0.803, 'mcc': 0.606, 'acc': 0.809, 'specificity': 0.768, 'sensitivity': 0.837, 'precision': 0.836}
+Use Decision Tree to fit data!
+Finsh 9!
+{'auc': 0.778, 'mcc': 0.557, 'acc': 0.782, 'specificity': 0.746, 'sensitivity': 0.81, 'precision': 0.804}
+Use Decision Tree to fit data!
+Finsh 10!
+{'auc': 0.779, 'mcc': 0.56, 'acc': 0.79, 'specificity': 0.727, 'sensitivity': 0.831, 'precision': 0.821}
+10
+finish all!
+{'auc': 0.7936, 'mcc': 0.5869, 'acc': 0.8013, 'specificity': 0.7535000000000001, 'sensitivity': 0.8337999999999999, 'precision': 0.8345}

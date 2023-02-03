@@ -1,0 +1,54 @@
+24989
+22489 2500
+22489 2500
+Use XGBoost to fit data!
+Finsh 1!
+{'auc': 0.912, 'mcc': 0.815, 'acc': 0.908, 'specificity': 0.893, 'sensitivity': 0.93, 'precision': 0.86}
+22489 2500
+22493 2496
+Use XGBoost to fit data!
+Finsh 2!
+{'auc': 0.921, 'mcc': 0.846, 'acc': 0.929, 'specificity': 0.893, 'sensitivity': 0.95, 'precision': 0.94}
+22489 2500
+22504 2485
+Use XGBoost to fit data!
+Finsh 3!
+{'auc': 0.951, 'mcc': 0.902, 'acc': 0.953, 'specificity': 0.938, 'sensitivity': 0.963, 'precision': 0.961}
+22489 2500
+22489 2500
+Use XGBoost to fit data!
+Finsh 4!
+{'auc': 0.911, 'mcc': 0.814, 'acc': 0.909, 'specificity': 0.898, 'sensitivity': 0.925, 'precision': 0.86}
+22489 2500
+22491 2498
+Use XGBoost to fit data!
+Finsh 5!
+{'auc': 0.95, 'mcc': 0.894, 'acc': 0.954, 'specificity': 0.961, 'sensitivity': 0.94, 'precision': 0.914}
+22489 2500
+22494 2495
+Use XGBoost to fit data!
+Finsh 6!
+{'auc': 0.847, 'mcc': 0.704, 'acc': 0.847, 'specificity': 0.763, 'sensitivity': 0.93, 'precision': 0.8}
+22489 2500
+22490 2499
+Use XGBoost to fit data!
+Finsh 7!
+{'auc': 0.829, 'mcc': 0.678, 'acc': 0.836, 'specificity': 0.726, 'sensitivity': 0.932, 'precision': 0.795}
+22489 2500
+22490 2499
+Use XGBoost to fit data!
+Finsh 8!
+{'auc': 0.85, 'mcc': 0.713, 'acc': 0.866, 'specificity': 0.783, 'sensitivity': 0.917, 'precision': 0.873}
+22489 2500
+22493 2496
+Use XGBoost to fit data!
+Finsh 9!
+{'auc': 0.88, 'mcc': 0.766, 'acc': 0.885, 'specificity': 0.841, 'sensitivity': 0.92, 'precision': 0.88}
+22500 2489
+22500 2489
+Use XGBoost to fit data!
+Finsh 10!
+{'auc': 0.912, 'mcc': 0.812, 'acc': 0.906, 'specificity': 0.885, 'sensitivity': 0.94, 'precision': 0.841}
+10
+finish all!
+{'auc': 0.8963000000000001, 'mcc': 0.7944, 'acc': 0.8993, 'specificity': 0.8581000000000001, 'sensitivity': 0.9347, 'precision': 0.8723999999999998}

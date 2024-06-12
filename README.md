@@ -20,10 +20,6 @@ pip install -r requirements.txt
     │   │     ├── N-GAltas_seq_train.csv
     │   │     ├── N-GAltas_seq_test.csv
     │   │     └── N-GAltas_structure
-    │   ├── N-GlyDE
-    │   │     ├── N-GlyDE_seq_train.csv
-    │   │     ├── N-GlyDE_seq_test.csv
-    │   │     └── N-GlyDE_structure
     ```
 
 ## Usage

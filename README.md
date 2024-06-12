@@ -17,9 +17,9 @@ pip install -r requirements.txt
     ```
     ├── data
     │   ├── N-GlycositeAltas
-    │   │     ├── N-GAltas_seq_train.csv
-    │   │     ├── N-GAltas_seq_test.csv
-    │   │     └── N-GAltas_structure
+    │   │     ├── train.csv
+    │   │     ├── test.csv
+    │   │     └── pdb_file
     ```
 
 ## Usage

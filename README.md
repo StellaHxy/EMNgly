@@ -20,6 +20,10 @@ pip install -r requirements.txt
     │   │     ├── train.csv
     │   │     ├── test.csv
     │   │     └── pdb_file
+    │   ├── N-GlyDE
+    │   │     ├── train.csv
+    │   │     ├── test.csv
+    │   │     └── pdb_file
     ```
 
 ## Usage

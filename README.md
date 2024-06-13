@@ -19,6 +19,7 @@ pip install -r requirements.txt
     │   ├── N-GlycositeAltas
     │   │     ├── train.csv
     │   │     ├── test.csv
+    │   │     ├── test_features.csv   
     │   │     └── pdb_file
     │   ├── N-GlyDE
     │   │     ├── train.csv

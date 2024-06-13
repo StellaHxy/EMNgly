@@ -42,7 +42,7 @@ Download the [checkpoint](https://drive.google.com/drive/folders/1cCCIw5HIgtBylf
     ├── predict.py
 
 ```
-python predict.py --mode=test_features --data_path=../data/N-GlycositeAltas --ckpt_path=./checkpoints/N-GlyAltas_classifier.pkl 
+python predict.py --mode=test_features --data_path=./data/N-GlycositeAltas --ckpt_path=./checkpoints/N-GlyAltas_classifier.pkl 
 ```
 
 ### Train the classifier of EMNgly on N-GlycositeAltas dataset:

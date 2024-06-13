@@ -29,6 +29,17 @@ pip install -r requirements.txt
 ## Usage
 
 ### Quick predict N-linked glycosylation sites of N-GlycositeAltas dataset:
+Download the [checkpoint] of N-GlyAltas_classifier under folder `checkpoints/`:
+
+    ├── checkpoints
+    │       └── N-GlyAltas_classifier.pkl
+    ├── data
+    ├── log
+    ├── model
+    ├── scripts
+    ├── main.py
+    ├── predict.py
+
 ```
 python predict.py --mode=test_features --data_path=../data/N-GlycositeAltas --ckpt_path=./checkpoints/N-GlyAltas_classifier.pkl 
 ```

@@ -39,16 +39,15 @@ def get_features(data_csv, dataset_dir):
         featureAll = featureAll.detach().numpy()
         ret_x.append(featureAll)
         ret_y.append(label)
+
     return np.array(ret_x), np.array(ret_y)
 
 
 def model(test_x, ckpt_path):
     with open(ckpt_path,'rb') as f:  
         model = pickle.load(f)
-
-    predict_y_2 = model.predict_proba(test_x)
-    predict_y = predict_y_2[:,-1]
-    return predict_y.reshape(1,len(test_x))
+    predict_y = model.predict_proba(test_x)[:, 1]
+    return predict_y
 
 
 def get_scores(label_y, predict_y, th=0.5):
@@ -90,17 +89,22 @@ if __name__ == '__main__':
     
     print("start reading test data...")
     
-    test_X, test_Y = get_features(input_csv, emb_dir)
+    if args.mode == "test":
+        test_X, test_Y = get_features(input_csv, emb_dir)
+    else:
+        df = pd.read_csv(input_csv)
+        test_X = df.iloc[:, 1:-1].values
+        test_Y = df['label']
 
     print("test data count:", len(test_X), len(test_Y))
     predict_y = model(test_X, ckpt_path)
     predict_y = predict_y.tolist()
     scores = get_scores(np.array(test_Y), predict_y[0])
     
-    time_ = time.time()
-    os.makedirs(args.log_dir, exist_ok=True)
-    with open(f'./log/score_{time_}.log', 'w') as f:
-        f.write(str(scores))
+    # time_ = time.time()
+    # os.makedirs(args.log_dir, exist_ok=True)
+    # with open(f'./log/score_{time_}.log', 'w') as f:
+    #     f.write(str(scores))
 
-    print(scores)
+    # print(scores)
     

@@ -42,7 +42,8 @@ def parse_PDB(x, atoms=["N", "CA", "C"], chain=None):
     xyz, seq, min_resn, max_resn = {}, {}, np.inf, -np.inf
     for line in open(x, "rb"):
         line = line.decode("utf-8", "ignore").rstrip()
-
+        # import pdb
+        # pdb.set_trace()
         if line[:6] == "HETATM" and line[17 : 17 + 3] == "MSE":
             line = line.replace("HETATM", "ATOM  ")
             line = line.replace("MSE", "MET")
@@ -77,6 +78,7 @@ def parse_PDB(x, atoms=["N", "CA", "C"], chain=None):
 
     # convert to numpy arrays, fill in missing values
     seq_, xyz_ = [], []
+    min_resn = min(min_resn, 0)
     for resn in range(int(min_resn), int(max_resn) + 1):
         if resn in seq:
             for k in sorted(seq[resn]):

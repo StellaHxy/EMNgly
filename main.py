@@ -9,19 +9,20 @@ import os
 import time
 import torch
 import tqdm
-
+import random
 
 def SVM_rbf(x, y, test_x, output_path):
     print('Use SVM(rbf) to fit data!')
     from sklearn import svm
-    model = svm.SVC(kernel='rbf',class_weight='balanced')
+    
+    model = svm.SVC(kernel='rbf', probability=True, random_state=random.randint(0,2024))
     model.fit(x, y)
 
     with open(output_path, 'wb') as file:
         pickle.dump(model, file)
     print(f"Model saved to {output_path}")
-
-    predict_y = model.predict(test_x)
+    
+    predict_y = model.predict_proba(test_x)[:, 1]
     return predict_y
 
 
@@ -35,7 +36,7 @@ def get_features(data_csv, dataset_dir):
             label = int(row['label'])
             id = row['id']
             pos = int(row['pos'])
-            for key in ['site', 'local']:
+            for key in ['site', 'local', 'structure']:
                 if key != 'structure':
                     pkl_file = os.path.join(dataset_dir, key, f'{index}.pkl')
                 else:
@@ -53,6 +54,7 @@ def get_features(data_csv, dataset_dir):
         featureAll = featureAll.detach().numpy()
         ret_x.append(featureAll)
         ret_y.append(label)
+
     return np.array(ret_x), np.array(ret_y)
 
 
@@ -104,7 +106,7 @@ if __name__ == '__main__':
     parser.add_argument('--mode', type=str, default="train")
     parser.add_argument('--data_path', type=str, default="data/N-GlycositeAltas/")
     parser.add_argument('--log_dir', type=str, default="./log/")
-    parser.add_argument('--output_path', type=str, default='./checkpoints/N-GlyAltas_classifier.pkl')
+    parser.add_argument('--output_path', type=str, default='./checkpoints/N-GlyAltas_classifier_2.pkl')
     args = parser.parse_args()
 
     input_csv = os.path.join(args.data_path, args.mode+'.csv')

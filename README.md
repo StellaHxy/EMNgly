@@ -48,11 +48,11 @@ python predict.py --mode=test_features --data_path=./data/N-GlycositeAltas --ckp
 ### Train the classifier of EMNgly on N-GlycositeAltas dataset:
 ```
 bash scritps/get_N-GlycositeAltas_train_features.sh
-python main.py --mode=train --data_path=../data/N-GlycositeAltas --output_path=./checkpoints/N-GlyAltas_classifier.pkl
+python main.py --mode=train --data_path=./data/N-GlycositeAltas --output_path=./checkpoints/N-GlyAltas_classifier.pkl
 ```
 
 ### Predict  N-linked glycosylation sites of N-GlycositeAltas dataset:
 ```
 bash scritps/get_N-GlycositeAltas_test_features.sh
-python predict.py --mode=test --data_path=../data/N-GlycositeAltas --ckpt_path=./checkpoints/N-GlyAltas_classifier.pkl 
+python predict.py --mode=test --data_path=./data/N-GlycositeAltas --ckpt_path=./checkpoints/N-GlyAltas_classifier.pkl 
 ```

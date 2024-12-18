@@ -5,10 +5,8 @@
 
 ## Environments
 ```bash
-git clone git@github.com:StellaHxy/EMNgly.git
-conda create -n EMNgly python=3.7
-conda activate EMNgly
-pip install -r requirements.txt
+git clone git@github.com:Xiaoyang878/EMNgly.git
+conda env create -f environment.yml
 ```
 
 ## Datasets
